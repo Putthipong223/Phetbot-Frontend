@@ -1528,7 +1528,7 @@ function ManualZH() {
 // MAIN APP
 // ══════════════════════════════════════════════
 export default function App() {
-  const [lang, setLang]               = useState("th");
+  const [lang, setLang]               = useState("zh");
   const [darkMode, setDarkMode]       = useState(isNightTime());
   const [autoNight, setAutoNight]     = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
