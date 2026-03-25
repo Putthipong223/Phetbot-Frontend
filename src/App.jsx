@@ -875,7 +875,11 @@ function AccomFilter({ lang }) {
                   <div key={a.id} className="accom-card">
                     <div className="accom-card-img-wrap">
                       {a.image
-                        ? <img src={a.image} alt={a.name} className="accom-card-img" onError={e=>{e.target.style.display="none";e.target.nextSibling.style.display="flex";}} />
+                        ? <img src={a.image} alt={a.name} className="accom-card-img"
+                            onError={e=>{e.target.style.display="none"; const ph=e.target.parentNode.querySelector('.accom-card-img-placeholder'); if(ph) ph.style.display="flex";}}
+                            onLoad={e=>{e.target.style.opacity="1"; const ph=e.target.parentNode.querySelector('.accom-card-img-placeholder'); if(ph) ph.style.display="none";}}
+                            style={{opacity:0,transition:"opacity 0.3s"}}
+                          />
                         : null}
                       <div className="accom-card-img-placeholder" style={{display:a.image?"none":"flex"}}>
                         <div className="accom-placeholder-inner">
