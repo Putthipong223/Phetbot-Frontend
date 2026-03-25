@@ -1643,7 +1643,7 @@ export default function App() {
         <div className="sidebar-top">
           <div className="sidebar-brand">
             <img src={PHETBOT_LOGO} alt="น้องเพชร" className="brand-logo-img"/>
-            {sidebarOpen&&<span className="brand-name">น้องเพชร</span>}
+            {sidebarOpen&&<span className="brand-name">{L$(lang,"น้องเพชร","Nong Phet","小碧")}</span>}
           </div>
           <button className="sidebar-toggle" onClick={()=>setSidebarOpen(s=>!s)}>{sidebarOpen?"◀":"▶"}</button>
         </div>
