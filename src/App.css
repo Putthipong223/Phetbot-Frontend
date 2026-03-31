@@ -2076,3 +2076,29 @@ html.dark .ob-back-btn { background: rgba(255,255,255,0.08); border-color: rgba(
 .mob-hist-star.starred { color: #f59e0b; }
 .mob-drawer-history { display: flex; align-items: center; gap: 4px; }
 .mob-hist-load { flex: 1; min-width: 0; }
+
+/* ── Manual language footer ── */
+.manual-lang-footer {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 16px 0 4px; margin-top: 16px;
+  border-top: 2px solid #ede9fe;
+}
+html.dark .manual-lang-footer { border-top-color: rgba(168,85,247,0.2); }
+.manual-lang-footer-label {
+  font-size: 0.82rem; color: var(--color-text-secondary); font-weight: 500; margin-right: 4px;
+}
+@media print { .manual-lang-footer { display: none !important; } }
+
+/* ── Onboarding language switcher ── */
+.ob-lang-switcher {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.ob-lang-btn {
+  padding: 4px 12px; border-radius: 20px; border: 1.5px solid #d8b4fe;
+  background: transparent; font-size: 1rem; cursor: pointer;
+  transition: all 0.2s; color: var(--color-text-secondary);
+}
+.ob-lang-btn:hover { background: #f5f3ff; border-color: #a855f7; }
+.ob-lang-btn.active { background: linear-gradient(135deg,#7c3aed,#ec4899); border-color: transparent; color: white; }
+html.dark .ob-lang-btn { border-color: rgba(168,85,247,0.4); }
+html.dark .ob-lang-btn:hover { background: rgba(168,85,247,0.15); }

@@ -187,35 +187,35 @@ const MONTH_ZH_FULL = ["","一月","二月","三月","四月","五月","六月",
 // ══════════════════════════════════════════════
 const ACCOMMODATIONS = [
   { id:1, type:"resort", location:"beach", price:1800, rating:4.3,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/4e/2b/f8/regent-cha-am-beach-resort.jpg?w=900&h=500&s=1",
+    image:"https://pix8.agoda.net/hotelImages/407521/-1/59c31d3b2fe1e3040c2015a1c17f8e7e.jpg?ce=0&s=1024x",
     mapsUrl:"https://maps.google.com/maps?q=Regent+Cha+Am+Beach+Resort",
     name:"Regent Cha Am Beach Resort", nameEn:"Regent Cha Am Beach Resort", nameZh:"七岩摄政海滩度假村",
     desc:"รีสอร์ทติดหาดชะอำ สระว่ายน้ำ อาหารเช้าริมหาด วิวทะเลสวยงาม",
     descEn:"Beachfront resort at Cha-am. Pool, breakfast by the sea, stunning ocean views.",
     descZh:"七岩海滩正对面，含泳池和海边早餐，海景壮观。" },
   { id:2, type:"hotel", location:"beach", price:2500, rating:4.4,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/5a/1c/3d/cha-am-methavalai-hotel.jpg?w=900&h=500&s=1",
+    image:"https://www.hotelsdirectbooking.com/img/methavalaichaam/pic1.jpg",
     mapsUrl:"https://maps.google.com/maps?q=Cha+Am+Methavalai+Hotel",
     name:"Cha Am Methavalai Hotel", nameEn:"Cha Am Methavalai Hotel", nameZh:"七岩梅沙瓦莱酒店",
     desc:"โรงแรม 4 ดาวริมหาดชะอำ สิ่งอำนวยความสะดวกครบ เหมาะครอบครัว",
     descEn:"4-star beachfront hotel at Cha-am. Full facilities, perfect for families.",
     descZh:"七岩四星海边酒店，设施齐全，非常适合家庭出行。" },
   { id:3, type:"resort", location:"beach", price:4500, rating:4.8,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a5/b8/3e/intercontinental-hua.jpg?w=900&h=500&s=1",
+    image:"https://digital.ihg.com/is/image/ihg/intercontinental-hua-hin-9483332227-2x1",
     mapsUrl:"https://maps.google.com/maps?q=InterContinental+Hua+Hin+Resort",
     name:"InterContinental Hua Hin Resort", nameEn:"InterContinental Hua Hin Resort", nameZh:"华欣洲际度假酒店",
     desc:"รีสอร์ท 5 ดาวหัวหิน วิวทะเล สระอินฟินิตี้ สปาระดับโลก",
     descEn:"5-star Hua Hin resort, sea views, infinity pool, world-class spa.",
     descZh:"华欣五星度假酒店，海景无边泳池，顶级水疗。" },
   { id:4, type:"resort", location:"beach", price:4000, rating:4.8,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/3b/7c/1f/centara-grand-beach-resort.jpg?w=900&h=500&s=1",
+    image:"https://www.centarahotelsresorts.com/centaragrand/sites/centara-centaragrand/files/styles/1440x700/public/2024-09/Centara%20Grand%20Beach%20Resort%20%26%20Villas%20Hua%20Hin%20-%20Aerial%20View.jpg.JPG?itok=_t5LXaI8",
     mapsUrl:"https://maps.google.com/maps?q=Centara+Grand+Beach+Resort+Hua+Hin",
     name:"Centara Grand Beach Resort Hua Hin", nameEn:"Centara Grand Beach Resort Hua Hin", nameZh:"华欣盛泰乐大海滩度假酒店",
     desc:"รีสอร์ทประวัติศาสตร์สไตล์โคโลเนียล ติดหาดหัวหิน มีสวนน้ำ",
     descEn:"Historic colonial-style beachfront resort with waterpark. Hua Hin landmark.",
     descZh:"华欣地标殖民地风格度假村，配备水上乐园。" },
   { id:5, type:"resort", location:"beach", price:3800, rating:4.7,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c1/4a/2e/anantara-hua-hin-resort.jpg?w=900&h=500&s=1",
+    image:"https://d21buns5ku92am.cloudfront.net/69806/images/617014-Anantara_Hua_Hin_Resort_Guest_Room_Club_Two_Bedroom_Family_Pool_Suite_Pool_Terrace-5625x3750-d5d0da-original-1759979188.jpg",
     mapsUrl:"https://maps.google.com/maps?q=Anantara+Hua+Hin+Resort",
     name:"Anantara Hua Hin Resort", nameEn:"Anantara Hua Hin Resort", nameZh:"华欣安纳塔拉度假村",
     desc:"รีสอร์ทสปาหรูหรา สวนดอกไม้สวยงาม สระว่ายน้ำหลายจุด",
@@ -243,7 +243,7 @@ const ACCOMMODATIONS = [
     descEn:"5-star hotel in Hua Hin with outdoor pool, spa, and seafront restaurant near the night market.",
     descZh:"华欣五星酒店，户外泳池、水疗和海边餐厅，靠近夜市。" },
   { id:9, type:"resort", location:"beach", price:5000, rating:4.9,
-    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4a/2c/8e/putahracsa-hua-hin.jpg?w=900&h=500&s=1",
+    image:"https://www.fleewinter.com/thailandimages/fhh001/pic1.jpg",
     mapsUrl:"https://maps.google.com/maps?q=Putahracsa+Hua+Hin",
     name:"Putahracsa Hua Hin", nameEn:"Putahracsa Hua Hin", nameZh:"华欣普塔拉克萨精品度假村",
     desc:"รีสอร์ทบูติคสุดหรู สระส่วนตัว วิลล่าริมทะเล โรแมนติกมาก",
@@ -877,8 +877,6 @@ function AccomFilter({ lang }) {
                       {a.image
                         ? <img src={a.image} alt={a.name} className="accom-card-img"
                             onError={e=>{e.target.style.display="none"; const ph=e.target.parentNode.querySelector('.accom-card-img-placeholder'); if(ph) ph.style.display="flex";}}
-                            onLoad={e=>{e.target.style.opacity="1"; const ph=e.target.parentNode.querySelector('.accom-card-img-placeholder'); if(ph) ph.style.display="none";}}
-                            style={{opacity:0,transition:"opacity 0.3s"}}
                           />
                         : null}
                       <div className="accom-card-img-placeholder" style={{display:a.image?"none":"flex"}}>
@@ -2028,6 +2026,11 @@ This action cannot be undone.`,
           <div className="modal-overlay onboarding-overlay" onClick={close}>
             <div className="onboarding-modal" onClick={e=>e.stopPropagation()}>
               <button className="ob-close-x" onClick={close}>✕</button>
+              <div className="ob-lang-switcher">
+                {[{code:"th",label:"🇹🇭"},{code:"en",label:"🇬🇧"},{code:"zh",label:"🇨🇳"}].map(l=>(
+                  <button key={l.code} className={`ob-lang-btn${lang===l.code?" active":""}`} onClick={()=>setLang(l.code)}>{l.label}</button>
+                ))}
+              </div>
               <div className="ob-step-icon">{step.icon}</div>
               <h2 className="ob-title">{s.title}</h2>
               <p className="ob-subtitle">{s.sub}</p>
@@ -2084,6 +2087,12 @@ This action cannot be undone.`,
               {manualLang==="th"&&<ManualTH/>}
               {manualLang==="en"&&<ManualEN/>}
               {manualLang==="zh"&&<ManualZH/>}
+              <div className="manual-lang-footer">
+                <span className="manual-lang-footer-label">{L$(manualLang,"เปลี่ยนภาษา","Change language","切换语言")} :</span>
+                {[{code:"th",label:"🇹🇭 ไทย"},{code:"en",label:"🇬🇧 EN"},{code:"zh",label:"🇨🇳 中文"}].map(l=>(
+                  <button key={l.code} className={`manual-lang-tab${manualLang===l.code?" active":""}`} onClick={()=>setManualLang(l.code)}>{l.label}</button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
