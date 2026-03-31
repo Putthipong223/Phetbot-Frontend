@@ -2027,7 +2027,7 @@ This action cannot be undone.`,
             <div className="onboarding-modal" onClick={e=>e.stopPropagation()}>
               <button className="ob-close-x" onClick={close}>✕</button>
               <div className="ob-lang-switcher">
-                {[{code:"th",label:"🇹🇭"},{code:"en",label:"🇬🇧"},{code:"zh",label:"🇨🇳"}].map(l=>(
+                {[{code:"th",label:"🇹🇭 TH"},{code:"en",label:"🇬🇧 EN"},{code:"zh",label:"🇨🇳 中文"}].map(l=>(
                   <button key={l.code} className={`ob-lang-btn${lang===l.code?" active":""}`} onClick={()=>setLang(l.code)}>{l.label}</button>
                 ))}
               </div>
